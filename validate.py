@@ -39,7 +39,7 @@ for cid,c in j.get('ch',{}).items():
         if any(x not in XP for x in c.get('x',[])) or len(c.get('x',[]))>8: e2.append(f'{cid}: x invalid')
     if set(c.get('n',{}))!=set(L) or set(c.get('k',{}))!=set(L): e2.append(f'{cid}: n și k trebuie în toate cele 8 limbi')
 CH=CH+list(j.get('ch',{}).keys())
-for s in j.get('st',[]):
+for s in j.get('st',[])+j.get('dz',[]):
     sid=s.get('id','?')
     if not re.fullmatch(r'[a-z0-9-]{1,30}',sid) or sid in ids: e2.append(f'poveste id invalid/duplicat: {sid}')
     ids.add(sid)
@@ -55,6 +55,7 @@ for s in j.get('st',[]):
         if x.get('w') and x['w'] not in [a[0] for a in c]: e2.append(f'{sid}.sc{i}: w nu e în scenă')
         if set(x.get('t',{}))!=set(L) or any(any(ch in v for ch in '<>`') or len(v)>400 for v in x['t'].values()): e2.append(f'{sid}.sc{i}: t invalid')
         if x.get('fx','') not in ('','confetti','hearts','stars'): e2.append(f'{sid}.sc{i}: fx invalid')
+        if x.get('q','') not in ('','mat','lang','log'): e2.append(f'{sid}.sc{i}: q invalid')
     qz=s.get('qz',{})
     for l in L:
         q=qz.get(l,[])
@@ -62,5 +63,5 @@ for s in j.get('st',[]):
         for ln in q:
             p=ln.split('|')
             if len(p)!=6 or not p[0].isdigit() or len(set(p[2:]))!=4 or any(c in ln for c in '<>`'): e2.append(f'{sid}: qz {l} rând invalid: {ln}')
-print('\n'.join(e2[:50]) if e2 else f"OK povești: {len(j.get('st',[]))}")
+print('\n'.join(e2[:50]) if e2 else f"OK povești: {len(j.get('st',[]))} · povești ale zilei: {len(j.get('dz',[]))}")
 sys.exit(1 if (err or e2) else 0)
