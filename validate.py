@@ -1,6 +1,6 @@
 """Verifică pack.json înainte de publicare. Rulează: python3 validate.py"""
 import json,sys
-L=['it','ro','en','es','fr','de','nb','pl'];SUBJ=['sci','sto','geo','dig']
+L=['it','ro','en','es','fr','de','nb','pl'];SUBJ=['sci','sto','geo','dig','rel','relo','relc']
 j=json.load(open('pack.json'));err=[]
 if not (isinstance(j.get('v'),int) and j['v']>0): err.append('v invalid')
 for l in L:
