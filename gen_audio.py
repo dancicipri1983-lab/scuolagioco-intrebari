@@ -49,7 +49,7 @@ def synth(text,lang,who,chars,out):
     subprocess.run(['ffmpeg','-y','-loglevel','error','-i','/tmp/_a.wav','-af',af,'-ac','1','-c:a','libmp3lame','-b:a','48k',out],check=True)
 if __name__=='__main__':
     j=json.load(open('pack.json'));force='--all' in sys.argv;chars=j.get('ch',{})
-    for s in j.get('st',[])+j.get('dz',[])+j.get('bz',[]):
+    for s in j.get('st',[])+j.get('dz',[])+j.get('bz',[])+j.get('av',[]):
         if s.get('au') and not force: continue
         for lang in V:
             for i,sc in enumerate(s['sc']):
