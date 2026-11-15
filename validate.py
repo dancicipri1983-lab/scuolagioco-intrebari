@@ -25,6 +25,16 @@ BG=['meadow','forest','night','sea','house','space','castle','snow','school']
 AN=['','walkin','walkinr','jump','happy','dance','shake','spin','sad','fly','sleep','wave','hide']
 import re
 e2=[];ids=set()
+EARS=['point','round','small','long','horn','tuft','antenna','hood','none','cat','mane','unicorn','elephant','leaf','antlers']
+XP=['wings','tdragon','spots','whisk','tlong','snout','screen','bolts','tfox','beak','big','flip','teeth','tpuff','spikes','nose','shell','pig','tcurl','hair','snoutl','tlion','trunk','stripes','freckles','glasses','scarf','bow']
+col=lambda v:isinstance(v,str) and re.fullmatch(r'#[0-9a-fA-F]{6}',v)
+for cid,c in j.get('ch',{}).items():
+    if not re.fullmatch(r'[a-z0-9]{2,16}',cid) or cid in CH: e2.append(f'personaj id invalid/rezervat: {cid}')
+    if not (col(c.get('col')) and col(c.get('bel'))) or any(k in c and not col(c[k]) for k in ('hc','mc','sc')): e2.append(f'{cid}: culori invalide (#rrggbb)')
+    if c.get('ear') not in EARS: e2.append(f'{cid}: ear invalid')
+    if any(x not in XP for x in c.get('x',[])) or len(c.get('x',[]))>8: e2.append(f'{cid}: x invalid')
+    if set(c.get('n',{}))!=set(L) or set(c.get('k',{}))!=set(L): e2.append(f'{cid}: n și k trebuie în toate cele 8 limbi')
+CH=CH+list(j.get('ch',{}).keys())
 for s in j.get('st',[]):
     sid=s.get('id','?')
     if not re.fullmatch(r'[a-z0-9-]{1,30}',sid) or sid in ids: e2.append(f'poveste id invalid/duplicat: {sid}')
