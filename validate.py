@@ -10,7 +10,7 @@ for sid,sj in j.get('sj',{}).items():
     if not _re.fullmatch(r'#[0-9a-fA-F]{6}',sj.get('col','')): err.append(f'{sid}: col #rrggbb')
     if not isinstance(sj.get('min'),int) or not 0<=sj['min']<=13: err.append(f'{sid}: min 0-13')
     if set(sj.get('n',{}))!=set(['it','ro','en','es','fr','de','nb','pl']): err.append(f'{sid}: n în toate cele 8 limbi')
-SUBJ=SUBJ+list(j.get('sj',{}).keys())+['t_'+x for x in j.get('tm',{})]
+SUBJ=SUBJ+list(j.get('sj',{}).keys())+['ing']+[k for k in j['b'].get('en',{}) if k.startswith('t_')]+['t_'+x for x in j.get('tm',{})]
 for tid,tm in j.get('tm',{}).items():
     if not _re.fullmatch(r'[a-z]{3,12}',tid): err.append(f'temă id invalid: {tid}')
     if not tm.get('ic') or len(tm['ic'])>4 or _re.search(r'[A-Za-z0-9<>]',tm['ic']): err.append(f'temă {tid}: ic = 1 emoji')
