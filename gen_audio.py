@@ -18,6 +18,7 @@ CV={'bubu':('m',1.25,1),'tina':('f',1.12,1),'zor':('m',1.08,.95),'miri':('f',1.2
  'bruno':('m',.85,1.05),'kiki':('m',1.35,1.05),'tomo':('m',.88,1.2),'gogu':('m',1.2,.95),'rosi':('f',1.2,1),'lup':('m',.8,1.05),
  'rufo':('m',1.1,1),'bambu':('m',.9,1.1),'koko':('f',1.1,1.1),'stelina':('f',1.3,1),'rex':('m',.8,1),'hubu':('f',.95,1.05),'pingo':('m',1.3,.95),
  'ella':('f',.95,1.05),'leo':('m',1.15,1),'momo':('m',1.35,.9),'ranu':('f',1.3,.95),'otto':('m',1.0,.95),'delfi':('f',1.25,1),'lento':('m',.85,1.3),
+ 'batran':('m',.92,1.1),'batrana':('f',.95,1.1),'barbat':('m',1.0,1),'femeie':('f',1.0,1),'inger':('f',1.15,1.05),'prunc':('f',1.2,1),'porumbel':('f',1.15,1),'oita':('f',1.15,1),'camila':('m',.95,1.05),'magar':('m',1.05,1),'balena':('m',.88,1.1),'bou':('m',.86,1.1),
  'lolo':('f',1.1,1),'ondi':('f',1.2,1),'gira':('f',1.0,1.05),'spini':('m',1.3,1),'scutel':('m',.9,1.15)}
 def model(name):
     l,rest=name.split('_',1);c=name.split('-')[0];n=name.split('-')[1];q=name.split('-')[2]
@@ -48,7 +49,7 @@ def synth(text,lang,who,chars,out):
     subprocess.run(['ffmpeg','-y','-loglevel','error','-i','/tmp/_a.wav','-af',af,'-ac','1','-c:a','libmp3lame','-b:a','48k',out],check=True)
 if __name__=='__main__':
     j=json.load(open('pack.json'));force='--all' in sys.argv;chars=j.get('ch',{})
-    for s in j.get('st',[])+j.get('dz',[]):
+    for s in j.get('st',[])+j.get('dz',[])+j.get('bz',[]):
         if s.get('au') and not force: continue
         for lang in V:
             for i,sc in enumerate(s['sc']):

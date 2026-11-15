@@ -29,8 +29,8 @@ for l in L:
 print('\n'.join(err[:50]) if err else f"OK v{j['v']} · {sum(len(x) for x in j['b']['en'].values())} întrebări/limbă")
 
 # ---- povești ----
-CH=['bubu','tina','zor','miri','olo','pip','lulu','bruno','kiki','tomo','gogu','rosi','lup','rufo','bambu','koko','stelina','rex','hubu','pingo','ella','leo','momo','ranu','otto','delfi','lento','lolo','ondi','gira','spini','scutel']
-BG=['meadow','forest','night','sea','house','space','castle','snow','school']
+CH=['bubu','tina','zor','miri','olo','pip','lulu','bruno','kiki','tomo','gogu','rosi','lup','rufo','bambu','koko','stelina','rex','hubu','pingo','ella','leo','momo','ranu','otto','delfi','lento','lolo','ondi','gira','spini','scutel','batran','batrana','barbat','femeie','inger','prunc','porumbel','oita','camila','magar','balena','bou']
+BG=['meadow','forest','night','sea','house','space','castle','snow','school','desert']
 AN=['','walkin','walkinr','jump','happy','dance','shake','spin','sad','fly','sleep','wave','hide']
 import re
 e2=[];ids=set()
@@ -48,7 +48,7 @@ for cid,c in j.get('ch',{}).items():
         if any(x not in XP for x in c.get('x',[])) or len(c.get('x',[]))>8: e2.append(f'{cid}: x invalid')
     if set(c.get('n',{}))!=set(L) or set(c.get('k',{}))!=set(L): e2.append(f'{cid}: n și k trebuie în toate cele 8 limbi')
 CH=CH+list(j.get('ch',{}).keys())
-for s in j.get('st',[])+j.get('dz',[]):
+for s in j.get('st',[])+j.get('dz',[])+j.get('bz',[]):
     sid=s.get('id','?')
     if not re.fullmatch(r'[a-z0-9-]{1,30}',sid) or sid in ids: e2.append(f'poveste id invalid/duplicat: {sid}')
     ids.add(sid)
