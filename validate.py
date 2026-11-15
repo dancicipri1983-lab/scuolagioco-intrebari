@@ -1,5 +1,5 @@
 """Verifică pack.json înainte de publicare. Rulează: python3 validate.py"""
-import json,sys
+import json,sys,os
 L=['it','ro','en','es','fr','de','nb','pl'];SUBJ=['sci','sto','geo','dig','rel','relo','relc']
 j=json.load(open('pack.json'));err=[]
 import re as _re
@@ -81,4 +81,7 @@ for s in j.get('st',[])+j.get('dz',[])+j.get('bz',[])+j.get('av',[]):
             p=ln.split('|')
             if len(p)!=6 or not p[0].isdigit() or len(set(p[2:]))!=4 or any(c in ln for c in '<>`'): e2.append(f'{sid}: qz {l} rând invalid: {ln}')
 print('\n'.join(e2[:50]) if e2 else f"OK povești: {len(j.get('st',[]))} · povești ale zilei: {len(j.get('dz',[]))}")
+if not (err or e2):
+    # fișier mic pe care telefoanele îl verifică la fiecare deschidere a jocului
+    json.dump({'v':j.get('v'),'date':j.get('date','')},open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'pv.json'),'w'))
 sys.exit(1 if (err or e2) else 0)
