@@ -1,16 +1,16 @@
 {
- "vc": 31,
- "vn": "8.6",
+ "vc": 32,
+ "vn": "8.7",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-15",
  "n": {
-  "ro": "Chat cu prietenii oricând, grup de prieteni, aviz la sfidă, alegerea vocii, Povești din Biblie și actualizări automate.",
-  "it": "Chat con gli amici, gruppo di amici, avviso delle sfide, scelta della voce, Storie della Bibbia e aggiornamenti automatici.",
-  "en": "Chat with friends, friends group, challenge alerts, voice choice, Bible stories and automatic updates.",
-  "es": "Chat con amigos, grupo de amigos, avisos de retos, elección de voz, historias de la Biblia y actualizaciones automáticas.",
-  "fr": "Chat avec les amis, groupe d'amis, alertes de défi, choix de la voix, histoires de la Bible et mises à jour automatiques.",
-  "de": "Chat mit Freunden, Freundesgruppe, Wettbewerbs-Hinweise, Stimmauswahl, Bibelgeschichten und automatische Updates.",
-  "nb": "Chat med venner, vennegruppe, konkurransevarsler, valg av stemme, bibelfortellinger og automatiske oppdateringer.",
-  "pl": "Czat z przyjaciółmi, grupa przyjaciół, powiadomienia o wyzwaniach, wybór głosu, opowieści biblijne i automatyczne aktualizacje."
+  "ro": "Aventuri cu ramificații (tu alegi drumul!) și teme noi, fără AI și fără chei pe telefon.",
+  "it": "Avventure a bivi (scegli tu la strada!) e nuovi temi, senza AI e senza chiavi sul telefono.",
+  "en": "Branching adventures (you choose the path!) and new themes, with no AI and no keys on the phone.",
+  "es": "Aventuras con caminos (¡tú eliges!) y temas nuevos, sin IA ni claves en el móvil.",
+  "fr": "Aventures à embranchements (tu choisis le chemin !) et nouveaux thèmes, sans IA ni clés sur le téléphone.",
+  "de": "Abenteuer mit Abzweigungen (du wählst den Weg!) und neue Themen, ohne KI und ohne Schlüssel auf dem Handy.",
+  "nb": "Eventyr med veivalg (du velger!) og nye temaer, uten KI og uten nøkler på telefonen.",
+  "pl": "Przygody z rozgałęzieniami (ty wybierasz drogę!) i nowe tematy, bez AI i bez kluczy w telefonie."
  }
 }
