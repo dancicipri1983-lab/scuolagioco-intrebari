@@ -2,6 +2,7 @@
 Rulează: pip install piper-tts --break-system-packages ; python3 gen_audio.py   (necesită ffmpeg)"""
 import json,os,subprocess,hashlib,urllib.request,sys
 HF='https://huggingface.co/rhasspy/piper-voices/resolve/main/'
+AUV=2  # versiunea vocilor (crește când se schimbă metoda de generare, ca telefoanele să descarce din nou)
 CACHE=os.path.expanduser('~/.piper');os.makedirs(CACHE,exist_ok=True)
 # voci pe limbă: (model, speaker) ; f = feminine, m = masculine ; prima voce f = narator
 V={'ro':{'f':[],'m':[('ro_RO-mihai-medium',None)]},
@@ -42,7 +43,9 @@ def synth(text,lang,who,chars,out):
     if spk is not None: cmd+=['--speaker',str(spk)]
     subprocess.run(cmd,input=text.encode(),check=True,capture_output=True)
     sr=json.load(open(model(m).replace('.onnx','.onnx.json')))['audio']['sample_rate']
-    subprocess.run(['ffmpeg','-y','-loglevel','error','-i','/tmp/_a.wav','-af',f'asetrate={sr}*{pit},aresample=22050,atempo={1/pit:.4f}','-ac','1','-c:a','libmp3lame','-b:a','40k',out],check=True)
+    pit=max(.86,min(1.18,pit))  # schimbări mici = cuvinte clare
+    af=f'rubberband=pitch={pit:.3f}:pitchq=quality:formant=preserved,aresample=22050' if abs(pit-1)>.01 else 'aresample=22050'
+    subprocess.run(['ffmpeg','-y','-loglevel','error','-i','/tmp/_a.wav','-af',af,'-ac','1','-c:a','libmp3lame','-b:a','48k',out],check=True)
 if __name__=='__main__':
     j=json.load(open('pack.json'));force='--all' in sys.argv;chars=j.get('ch',{})
     for s in j.get('st',[])+j.get('dz',[]):
@@ -52,5 +55,5 @@ if __name__=='__main__':
                 t=sc['t'].get(lang)
                 if t: synth(t,lang,sc.get('w',''),chars,f"audio/{s['id']}/{lang}/{i}.mp3")
             print('ok',s['id'],lang)
-        s['au']=1
+        s['au']=AUV
     json.dump(j,open('pack.json','w'),ensure_ascii=False,separators=(',',':'))
