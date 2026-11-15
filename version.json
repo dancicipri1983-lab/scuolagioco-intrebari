@@ -1,16 +1,16 @@
 {
- "vc": 34,
- "vn": "8.9",
+ "vc": 35,
+ "vn": "9.0",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-15",
  "n": {
-  "ro": "Sfide pe echipe: Echipa Roșie contra Echipa Albastră, cu cursă de personaje!",
-  "it": "Sfide a squadre: Squadra Rossa contro Squadra Blu, con la corsa dei personaggi!",
-  "en": "Team challenges: Red Team vs Blue Team, with a character race!",
-  "es": "Retos por equipos: Equipo Rojo contra Equipo Azul, ¡con carrera de personajes!",
-  "fr": "Défis en équipes : Équipe Rouge contre Équipe Bleue, avec course de personnages !",
-  "de": "Team-Wettbewerbe: Team Rot gegen Team Blau, mit Figurenrennen!",
-  "nb": "Lagkonkurranser: Det røde laget mot det blå laget, med figurløp!",
-  "pl": "Wyzwania drużynowe: Czerwoni kontra Niebiescy, z wyścigiem postaci!"
+  "ro": "Nou: aplicația spune răspunsul corect, „Repetă greșelile”, raportarea întrebărilor și codul de salvare a progresului.",
+  "it": "Novità: l’app dice la risposta giusta, „Ripassa gli errori”, segnalazione delle domande e codice di salvataggio.",
+  "en": "New: the app says the right answer, “Practise your mistakes”, question reports and a save code.",
+  "es": "Novedades: la app dice la respuesta correcta, «Repasa tus errores», avisos de preguntas y código de guardado.",
+  "fr": "Nouveau : l’appli dit la bonne réponse, « Revois tes erreurs », signalement des questions et code de sauvegarde.",
+  "de": "Neu: Die App sagt die richtige Antwort, „Fehler üben“, Fragen melden und Sicherungscode.",
+  "nb": "Nytt: appen sier riktig svar, «Øv på feilene», melding om spørsmål og lagringskode.",
+  "pl": "Nowość: aplikacja mówi poprawną odpowiedź, „Powtórz błędy”, zgłaszanie pytań i kod zapisu."
  }
 }
