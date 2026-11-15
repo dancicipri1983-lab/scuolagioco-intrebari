@@ -2,6 +2,15 @@
 import json,sys
 L=['it','ro','en','es','fr','de','nb','pl'];SUBJ=['sci','sto','geo','dig','rel','relo','relc']
 j=json.load(open('pack.json'));err=[]
+import re as _re
+BASE=['mat','ita','rom','log','ing','sci','sto','geo','dig','inf','eco','rel']
+for sid,sj in j.get('sj',{}).items():
+    if not _re.fullmatch(r'[a-z]{3,10}',sid) or sid in BASE: err.append(f'materie id invalid/rezervat: {sid}')
+    if not sj.get('ic') or len(sj['ic'])>4 or _re.search(r'[A-Za-z0-9<>]',sj['ic']): err.append(f'{sid}: ic trebuie să fie 1 emoji')
+    if not _re.fullmatch(r'#[0-9a-fA-F]{6}',sj.get('col','')): err.append(f'{sid}: col #rrggbb')
+    if not isinstance(sj.get('min'),int) or not 0<=sj['min']<=13: err.append(f'{sid}: min 0-13')
+    if set(sj.get('n',{}))!=set(['it','ro','en','es','fr','de','nb','pl']): err.append(f'{sid}: n în toate cele 8 limbi')
+SUBJ=SUBJ+list(j.get('sj',{}).keys())
 if not (isinstance(j.get('v'),int) and j['v']>0): err.append('v invalid')
 for l in L:
     if l not in j['b']: err.append('lipsește limba '+l);continue
