@@ -1,16 +1,16 @@
 {
- "vc": 33,
- "vn": "8.8",
+ "vc": 34,
+ "vn": "8.9",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-15",
  "n": {
-  "ro": "Sfide noi: cursă cu personaje (alegi personajul!) și întrebări mult mai variate, fără repetări.",
-  "it": "Nuove sfide: corsa con i personaggi (scegli il tuo!) e domande molto più varie, senza ripetizioni.",
-  "en": "New challenges: character race (pick yours!) and much more varied questions, no repeats.",
-  "es": "Nuevos retos: carrera de personajes (¡elige el tuyo!) y preguntas mucho más variadas, sin repeticiones.",
-  "fr": "Nouveaux défis : course de personnages (choisis le tien !) et questions bien plus variées, sans répétitions.",
-  "de": "Neue Wettbewerbe: Figurenrennen (wähle deine Figur!) und viel abwechslungsreichere Fragen ohne Wiederholungen.",
-  "nb": "Nye konkurranser: figurløp (velg din!) og mye mer varierte spørsmål uten gjentakelser.",
-  "pl": "Nowe wyzwania: wyścig postaci (wybierz swoją!) i dużo bardziej różnorodne pytania, bez powtórek."
+  "ro": "Sfide pe echipe: Echipa Roșie contra Echipa Albastră, cu cursă de personaje!",
+  "it": "Sfide a squadre: Squadra Rossa contro Squadra Blu, con la corsa dei personaggi!",
+  "en": "Team challenges: Red Team vs Blue Team, with a character race!",
+  "es": "Retos por equipos: Equipo Rojo contra Equipo Azul, ¡con carrera de personajes!",
+  "fr": "Défis en équipes : Équipe Rouge contre Équipe Bleue, avec course de personnages !",
+  "de": "Team-Wettbewerbe: Team Rot gegen Team Blau, mit Figurenrennen!",
+  "nb": "Lagkonkurranser: Det røde laget mot det blå laget, med figurløp!",
+  "pl": "Wyzwania drużynowe: Czerwoni kontra Niebiescy, z wyścigiem postaci!"
  }
 }
