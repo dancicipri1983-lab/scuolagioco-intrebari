@@ -1,0 +1,8 @@
+# Povești din Biblie ("bz" în pack.json)
+Format identic cu poveștile ("st"), vezi bible1.py (Noe și corabia): id "bNNN-<nume>", from (data de la care apare), ch, acc "", title (8 limbi), sc (8–12 scene), qz (5 întrebări despre poveste, clasa 1–3), "au" pus de gen_audio.py.
+- Personaje biblice (3D, Fluent Emoji MIT): batran (bătrân: Noe, Avraam, Moise bătrân, Iosif bătrân), batrana (bătrână: Sara), barbat (bărbat: David adult, Iosif, Petru, apostoli, păstori), femeie (femeie: Maria, Rut, Marta), inger (înger), prunc (prunc: Iisus nou-născut, Moise copil), porumbel, oita, camila, magar, balena (peștele cel mare al lui Iona), bou; se pot folosi și leo (leu: Daniel), pingo/delfi etc. doar dacă au sens.
+- Pentru numele vorbitorului folosește în scenă câmpul "n": {"ro":"Noe","it":"Noè",…} (8 limbi); fără "n" se afișează numele generic („Bătrânul”).
+- Fundaluri: meadow, forest, night, sea, house, space, castle, snow, school, desert (deșert cu palmier). fx: confetti, hearts, stars.
+- Repovestește FIDEL textul biblic, simplu și cald, pentru copii de 5–9 ani, cu lecția poveștii; comun ortodocșilor și catolicilor; fără scene violente detaliate; Dumnezeu nu este desenat (vorbește naratorul: „Dumnezeu i-a spus lui…”). Iisus poate apărea ca prunc (prunc) sau doar prin narator.
+- Povești făcute: b001 Noe și corabia.
+- Idei următoare (în ordine): Facerea lumii, David și Goliat, Iona și peștele cel mare, Iosif și frații săi, Moise în coșuleț, Daniel în groapa cu lei, Nașterea Domnului, Botezul Domnului, Nunta din Cana, Samarineanul milostiv, Fiul risipitor, Oaia pierdută, Zacheu, Învierea, Rusaliile, Rut, Avraam și cei trei oaspeți, Turnul Babel, Iosif și visul faraonului, Ilie și corbii, Samuel copil, Înmulțirea pâinilor, Potolirea furtunii, Iisus și copiii.
