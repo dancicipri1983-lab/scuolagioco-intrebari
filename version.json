@@ -1,16 +1,16 @@
 {
- "vc": 32,
- "vn": "8.7",
+ "vc": 33,
+ "vn": "8.8",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-15",
  "n": {
-  "ro": "Aventuri cu ramificații (tu alegi drumul!) și teme noi, fără AI și fără chei pe telefon.",
-  "it": "Avventure a bivi (scegli tu la strada!) e nuovi temi, senza AI e senza chiavi sul telefono.",
-  "en": "Branching adventures (you choose the path!) and new themes, with no AI and no keys on the phone.",
-  "es": "Aventuras con caminos (¡tú eliges!) y temas nuevos, sin IA ni claves en el móvil.",
-  "fr": "Aventures à embranchements (tu choisis le chemin !) et nouveaux thèmes, sans IA ni clés sur le téléphone.",
-  "de": "Abenteuer mit Abzweigungen (du wählst den Weg!) und neue Themen, ohne KI und ohne Schlüssel auf dem Handy.",
-  "nb": "Eventyr med veivalg (du velger!) og nye temaer, uten KI og uten nøkler på telefonen.",
-  "pl": "Przygody z rozgałęzieniami (ty wybierasz drogę!) i nowe tematy, bez AI i bez kluczy w telefonie."
+  "ro": "Sfide noi: cursă cu personaje (alegi personajul!) și întrebări mult mai variate, fără repetări.",
+  "it": "Nuove sfide: corsa con i personaggi (scegli il tuo!) e domande molto più varie, senza ripetizioni.",
+  "en": "New challenges: character race (pick yours!) and much more varied questions, no repeats.",
+  "es": "Nuevos retos: carrera de personajes (¡elige el tuyo!) y preguntas mucho más variadas, sin repeticiones.",
+  "fr": "Nouveaux défis : course de personnages (choisis le tien !) et questions bien plus variées, sans répétitions.",
+  "de": "Neue Wettbewerbe: Figurenrennen (wähle deine Figur!) und viel abwechslungsreichere Fragen ohne Wiederholungen.",
+  "nb": "Nye konkurranser: figurløp (velg din!) og mye mer varierte spørsmål uten gjentakelser.",
+  "pl": "Nowe wyzwania: wyścig postaci (wybierz swoją!) i dużo bardziej różnorodne pytania, bez powtórek."
  }
 }
