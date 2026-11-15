@@ -1,16 +1,16 @@
 {
- "vc": 38,
- "vn": "9.3",
+ "vc": 39,
+ "vn": "9.4",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-15",
  "n": {
-  "ro": "Întrebările noi se descarcă automat de fiecare dată când deschizi jocul.",
-  "it": "Le nuove domande si scaricano automaticamente ogni volta che apri il gioco.",
-  "en": "New questions now download automatically every time you open the game.",
-  "es": "Las preguntas nuevas se descargan automáticamente cada vez que abres el juego.",
-  "fr": "Les nouvelles questions se téléchargent automatiquement à chaque ouverture du jeu.",
-  "de": "Neue Fragen werden jetzt bei jedem Öffnen des Spiels automatisch geladen.",
-  "nb": "Nye spørsmål lastes nå ned automatisk hver gang du åpner spillet.",
-  "pl": "Nowe pytania pobierają się automatycznie przy każdym otwarciu gry."
+  "ro": "Nou: personajele din povești se mișcă (animații Microsoft) și ecranul „Animații noi” cu personaje Rive.",
+  "it": "Novità: i personaggi delle storie si muovono (animazioni Microsoft) e la schermata „Nuove animazioni” con personaggi Rive.",
+  "en": "New: story characters now move (Microsoft animations) and a “New animations” screen with Rive characters.",
+  "es": "Novedad: los personajes de los cuentos se mueven (animaciones de Microsoft) y la pantalla «Nuevas animaciones» con personajes Rive.",
+  "fr": "Nouveau : les personnages des histoires bougent (animations Microsoft) et l’écran « Nouvelles animations » avec des personnages Rive.",
+  "de": "Neu: Die Figuren in den Geschichten bewegen sich (Microsoft-Animationen) und der Bildschirm „Neue Animationen“ mit Rive-Figuren.",
+  "nb": "Nytt: figurene i historiene beveger seg (Microsoft-animasjoner) og skjermen «Nye animasjoner» med Rive-figurer.",
+  "pl": "Nowość: postacie w opowieściach się ruszają (animacje Microsoft) i ekran „Nowe animacje” z postaciami Rive."
  }
 }
