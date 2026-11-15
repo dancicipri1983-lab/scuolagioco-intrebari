@@ -20,7 +20,7 @@ for l in L:
 print('\n'.join(err[:50]) if err else f"OK v{j['v']} · {sum(len(x) for x in j['b']['en'].values())} întrebări/limbă")
 
 # ---- povești ----
-CH=['bubu','tina','zor','miri','olo','pip','lulu','bruno','kiki','tomo','gogu','rosi','lup']
+CH=['bubu','tina','zor','miri','olo','pip','lulu','bruno','kiki','tomo','gogu','rosi','lup','rufo','bambu','koko','stelina','rex','hubu','pingo','ella','leo','momo','ranu','otto','delfi','lento','lolo','ondi','gira','spini','scutel']
 BG=['meadow','forest','night','sea','house','space','castle','snow','school']
 AN=['','walkin','walkinr','jump','happy','dance','shake','spin','sad','fly','sleep','wave','hide']
 import re
@@ -30,9 +30,13 @@ XP=['wings','tdragon','spots','whisk','tlong','snout','screen','bolts','tfox','b
 col=lambda v:isinstance(v,str) and re.fullmatch(r'#[0-9a-fA-F]{6}',v)
 for cid,c in j.get('ch',{}).items():
     if not re.fullmatch(r'[a-z0-9]{2,16}',cid) or cid in CH: e2.append(f'personaj id invalid/rezervat: {cid}')
-    if not (col(c.get('col')) and col(c.get('bel'))) or any(k in c and not col(c[k]) for k in ('hc','mc','sc')): e2.append(f'{cid}: culori invalide (#rrggbb)')
-    if c.get('ear') not in EARS: e2.append(f'{cid}: ear invalid')
-    if any(x not in XP for x in c.get('x',[])) or len(c.get('x',[]))>8: e2.append(f'{cid}: x invalid')
+    if 'img' in c:
+        import os
+        if not re.fullmatch(r'[a-z0-9_-]{1,40}',c['img']) or not os.path.exists(f"img/{c['img']}.png"): e2.append(f"{cid}: img lipsă în img/{c.get('img')}.png")
+    else:
+        if not (col(c.get('col')) and col(c.get('bel'))) or any(k in c and not col(c[k]) for k in ('hc','mc','sc')): e2.append(f'{cid}: culori invalide (#rrggbb)')
+        if c.get('ear') not in EARS: e2.append(f'{cid}: ear invalid')
+        if any(x not in XP for x in c.get('x',[])) or len(c.get('x',[]))>8: e2.append(f'{cid}: x invalid')
     if set(c.get('n',{}))!=set(L) or set(c.get('k',{}))!=set(L): e2.append(f'{cid}: n și k trebuie în toate cele 8 limbi')
 CH=CH+list(j.get('ch',{}).keys())
 for s in j.get('st',[]):
