@@ -1,16 +1,16 @@
 {
- "vc": 36,
- "vn": "9.1",
+ "vc": 37,
+ "vn": "9.2",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-15",
  "n": {
-  "ro": "Nou: jocuri de informatică variate (robotul cu personaje, ordine, „ce urmează”, dacă/altfel), 12 melodii și întrebări fără repetări.",
-  "it": "Novità: giochi di informatica vari (robot con personaggi, ordine, „cosa viene dopo”, se/altrimenti), 12 melodie e domande senza ripetizioni.",
-  "en": "New: varied coding games (character robot, order, “what comes next”, if/else), 12 tunes and no repeated questions.",
-  "es": "Novedades: juegos de informática variados (robot con personajes, orden, «qué viene después», si/si no), 12 melodías y preguntas sin repeticiones.",
-  "fr": "Nouveau : jeux d’informatique variés (robot avec personnages, ordre, « que vient ensuite », si/sinon), 12 mélodies et questions sans répétitions.",
-  "de": "Neu: abwechslungsreiche Informatikspiele (Figuren-Roboter, Reihenfolge, „was kommt als Nächstes“, wenn/sonst), 12 Melodien und keine Wiederholungen.",
-  "nb": "Nytt: varierte programmeringsspill (robot med figurer, rekkefølge, «hva kommer etterpå», hvis/ellers), 12 melodier og ingen gjentatte spørsmål.",
-  "pl": "Nowość: różnorodne gry z informatyki (robot z postaciami, kolejność, „co dalej”, jeśli/w przeciwnym razie), 12 melodii i pytania bez powtórek."
+  "ro": "Nou: primești o notificare când un prieten instalează jocul și intră în grupul vostru.",
+  "it": "Novità: ricevi una notifica quando un amico installa il gioco ed entra nel vostro gruppo.",
+  "en": "New: get a notification when a friend installs the game and joins your group.",
+  "es": "Novedad: recibes un aviso cuando un amigo instala el juego y entra en vuestro grupo.",
+  "fr": "Nouveau : une notification quand un ami installe le jeu et rejoint votre groupe.",
+  "de": "Neu: Benachrichtigung, wenn ein Freund das Spiel installiert und eurer Gruppe beitritt.",
+  "nb": "Nytt: varsel når en venn installerer spillet og blir med i gruppen deres.",
+  "pl": "Nowość: powiadomienie, gdy znajomy zainstaluje grę i dołączy do waszej grupy."
  }
 }
