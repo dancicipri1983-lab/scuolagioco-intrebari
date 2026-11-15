@@ -8,3 +8,6 @@ Pachetul nou conține și întrebările vechi (se adaugă, nu se înlocuiesc).
 
 ## Aplicația
 `apk/ScuolaGioco.apk` – ultima versiune (fără chei API). `version.json` – versiunea curentă: aplicațiile instalate verifică fișierul și anunță copiii când apare o versiune nouă.
+
+## pv.json
+Fișier mic cu versiunea pachetului, scris automat de validate.py. Telefoanele îl verifică la fiecare deschidere a jocului; dacă e mai nou, descarcă pack.json. Commit-ul trebuie să includă și pv.json (git add -A).

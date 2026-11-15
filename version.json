@@ -1,16 +1,16 @@
 {
- "vc": 37,
- "vn": "9.2",
+ "vc": 38,
+ "vn": "9.3",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-15",
  "n": {
-  "ro": "Nou: primești o notificare când un prieten instalează jocul și intră în grupul vostru.",
-  "it": "Novità: ricevi una notifica quando un amico installa il gioco ed entra nel vostro gruppo.",
-  "en": "New: get a notification when a friend installs the game and joins your group.",
-  "es": "Novedad: recibes un aviso cuando un amigo instala el juego y entra en vuestro grupo.",
-  "fr": "Nouveau : une notification quand un ami installe le jeu et rejoint votre groupe.",
-  "de": "Neu: Benachrichtigung, wenn ein Freund das Spiel installiert und eurer Gruppe beitritt.",
-  "nb": "Nytt: varsel når en venn installerer spillet og blir med i gruppen deres.",
-  "pl": "Nowość: powiadomienie, gdy znajomy zainstaluje grę i dołączy do waszej grupy."
+  "ro": "Întrebările noi se descarcă automat de fiecare dată când deschizi jocul.",
+  "it": "Le nuove domande si scaricano automaticamente ogni volta che apri il gioco.",
+  "en": "New questions now download automatically every time you open the game.",
+  "es": "Las preguntas nuevas se descargan automáticamente cada vez que abres el juego.",
+  "fr": "Les nouvelles questions se téléchargent automatiquement à chaque ouverture du jeu.",
+  "de": "Neue Fragen werden jetzt bei jedem Öffnen des Spiels automatisch geladen.",
+  "nb": "Nye spørsmål lastes nå ned automatisk hver gang du åpner spillet.",
+  "pl": "Nowe pytania pobierają się automatycznie przy każdym otwarciu gry."
  }
 }
