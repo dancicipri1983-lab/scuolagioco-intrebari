@@ -18,7 +18,6 @@ for l in L:
             if p[1].lower() in seen: err.append(f'{l}.{k}[{i}] întrebare duplicată')
             seen.add(p[1].lower())
 print('\n'.join(err[:50]) if err else f"OK v{j['v']} · {sum(len(x) for x in j['b']['en'].values())} întrebări/limbă")
-sys.exit(1 if err else 0)
 
 # ---- povești ----
 CH=['bubu','tina','zor','miri','olo','pip','lulu','bruno','kiki','tomo','gogu','rosi','lup']
@@ -50,4 +49,4 @@ for s in j.get('st',[]):
             p=ln.split('|')
             if len(p)!=6 or not p[0].isdigit() or len(set(p[2:]))!=4 or any(c in ln for c in '<>`'): e2.append(f'{sid}: qz {l} rând invalid: {ln}')
 print('\n'.join(e2[:50]) if e2 else f"OK povești: {len(j.get('st',[]))}")
-sys.exit(1 if e2 else 0)
+sys.exit(1 if (err or e2) else 0)
