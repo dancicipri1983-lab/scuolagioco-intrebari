@@ -1,16 +1,16 @@
 {
- "vc": 40,
- "vn": "9.5",
+ "vc": 41,
+ "vn": "9.6",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "n": {
-  "ro": "Animațiile sunt acum peste tot: în jocuri, meniuri, întrebări, hartă și concursuri.",
-  "it": "Le animazioni ora sono ovunque: giochi, menu, domande, mappa e gare.",
-  "en": "Animations are now everywhere: games, menus, questions, map and contests.",
-  "es": "Las animaciones ahora están en todas partes: juegos, menús, preguntas, mapa y concursos.",
-  "fr": "Les animations sont maintenant partout : jeux, menus, questions, carte et concours.",
-  "de": "Animationen jetzt überall: Spiele, Menüs, Fragen, Karte und Wettbewerbe.",
-  "nb": "Animasjoner er nå overalt: spill, menyer, spørsmål, kart og konkurranser.",
-  "pl": "Animacje są teraz wszędzie: w grach, menu, pytaniach, na mapie i w konkursach."
+  "ro": "Nou: vezi versiunea aplicației și a întrebărilor (jos pe ecranul principal și în Zona părinților), cu buton „Verifică actualizările”.",
+  "it": "Novità: vedi la versione dell'app e delle domande (in fondo alla schermata principale e nell'Area genitori), con il pulsante „Controlla gli aggiornamenti”.",
+  "en": "New: see the app and question versions (bottom of the home screen and in the Parents area), with a “Check for updates” button.",
+  "es": "Novedad: ves la versión de la app y de las preguntas (abajo en la pantalla principal y en la Zona de padres), con el botón «Buscar actualizaciones».",
+  "fr": "Nouveau : la version de l'appli et des questions (en bas de l'écran d'accueil et dans l'Espace parents), avec le bouton « Vérifier les mises à jour ».",
+  "de": "Neu: App- und Fragenversion sichtbar (unten auf dem Startbildschirm und im Elternbereich), mit Taste „Nach Updates suchen“.",
+  "nb": "Nytt: se versjonen av appen og spørsmålene (nederst på startskjermen og i foreldredelen), med knappen «Se etter oppdateringer».",
+  "pl": "Nowość: wersja aplikacji i pytań (na dole ekranu głównego i w strefie rodzica), z przyciskiem „Sprawdź aktualizacje”."
  }
 }
