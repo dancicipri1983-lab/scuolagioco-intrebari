@@ -1,11 +1,12 @@
 # Ilustrații ScuolaGioco
 
-Sloturi: hero, harta, povesti, biblie, aventuri, jocuri, concurs, misiuni, surpriza (WebP, ~1100×614).
-Imaginile din acest folder sunt deja incluse în aplicație (de la versiunea 9.9).
+Sloturi: hero, harta, povesti, biblie, aventuri, jocuri, concurs, misiuni, surpriza (WebP, ~1100 px lățime).
+În aplicație (de la versiunea 10.0) sunt deja 3 variante pentru fiecare slot: `<slot>.webp`, `<slot>-2.webp`, `<slot>-3.webp`.
+La fiecare deschidere a jocului, aplicația alege la întâmplare una dintre variante.
 
-Pentru a schimba o imagine fără APK nou:
-1. Pune noua imagine aici ca `il/<slot>.webp`.
-2. În pack.json adaugă sau mărește versiunea: "il": {"<slot>": N}.
-3. Telefoanele o descarcă singure, o păstrează local și o folosesc în locul celei din aplicație.
+Pentru a ADĂUGA ilustrații noi fără APK nou:
+1. Pune imaginea aici cu un nume nou, de exemplu `il/hero-4.webp` (doar litere mici, cifre și cratimă).
+2. În pack.json adaugă numele (fără .webp) la lista slotului: "il": {"hero": ["hero-4"], "povesti": ["povesti-4", "povesti-5"]}.
+3. Mărește "v" în pack.json. Telefoanele descarcă imaginile noi, le păstrează local și le adaugă la cele existente.
 
-Sursa: ilustrații generate de utilizator cu ChatGPT. Harta de fundal din aplicație (mapbg): Kenney Hexagon Pack, CC0.
+Sursa: ilustrații generate de utilizator cu ChatGPT. Harta de fundal (mapbg): Kenney Hexagon Pack, CC0.
