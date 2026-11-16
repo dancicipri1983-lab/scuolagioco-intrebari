@@ -1,16 +1,16 @@
 {
- "vc": 42,
- "vn": "9.7",
+ "vc": 43,
+ "vn": "9.8",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-16",
  "n": {
-  "ro": "ScuolaGioco 2.0: design nou, mai colorat, pentru ecranul principal, întrebări, hartă și zona părinților.",
-  "it": "ScuolaGioco 2.0: nuovo design più colorato per schermata principale, domande, mappa e area genitori.",
-  "en": "ScuolaGioco 2.0: a new, more colourful design for the home screen, questions, map and parents area.",
-  "es": "ScuolaGioco 2.0: nuevo diseño más colorido para la pantalla principal, preguntas, mapa y zona de padres.",
-  "fr": "ScuolaGioco 2.0 : nouveau design plus coloré pour l'accueil, les questions, la carte et l'espace parents.",
-  "de": "ScuolaGioco 2.0: neues, bunteres Design für Startbildschirm, Fragen, Karte und Elternbereich.",
-  "nb": "ScuolaGioco 2.0: nytt og mer fargerikt design for startskjermen, spørsmål, kart og foreldredelen.",
-  "pl": "ScuolaGioco 2.0: nowy, bardziej kolorowy wygląd ekranu głównego, pytań, mapy i strefy rodzica."
+  "ro": "Nou: misiuni zilnice, Pico îți explică greșelile, joc „Scrie cu degetul”, răspuns cu vocea, PIN și raport pentru părinți.",
+  "it": "Novità: missioni giornaliere, Pico spiega gli errori, gioco „Scrivi col dito”, risposte con la voce, PIN e rapporto per i genitori.",
+  "en": "New: daily missions, Pico explains mistakes, “Write with your finger” game, voice answers, PIN and report for parents.",
+  "es": "Novedades: misiones diarias, Pico explica los errores, juego «Escribe con el dedo», respuestas con la voz, PIN e informe para padres.",
+  "fr": "Nouveau : missions du jour, Pico explique les erreurs, jeu « Écris avec le doigt », réponses à la voix, PIN et rapport pour les parents.",
+  "de": "Neu: Tagesmissionen, Pico erklärt Fehler, Spiel „Schreib mit dem Finger“, Antworten per Stimme, PIN und Bericht für Eltern.",
+  "nb": "Nytt: daglige oppdrag, Pico forklarer feil, spillet «Skriv med fingeren», svar med stemmen, PIN og rapport for foreldre.",
+  "pl": "Nowość: codzienne misje, Pico tłumaczy błędy, gra „Pisz palcem”, odpowiedzi głosem, PIN i raport dla rodziców."
  }
 }
