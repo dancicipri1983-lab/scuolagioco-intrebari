@@ -1,16 +1,16 @@
 {
- "vc": 46,
- "vn": "10.1",
+ "vc": 47,
+ "vn": "10.2",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-16",
  "n": {
-  "ro": "Nou: Pico te salută animat în fiecare zi și se mișcă sus, lângă numele tău.",
-  "it": "Novità: Pico ti saluta animato ogni giorno e si muove in alto, accanto al tuo nome.",
-  "en": "New: Pico greets you with an animation every day and moves next to your name.",
-  "es": "Novedad: Pico te saluda animado cada día y se mueve arriba, junto a tu nombre.",
-  "fr": "Nouveau : Pico te salue en animation chaque jour et bouge en haut, près de ton nom.",
-  "de": "Neu: Pico begrüßt dich jeden Tag animiert und bewegt sich oben neben deinem Namen.",
-  "nb": "Nytt: Pico hilser deg animert hver dag og beveger seg øverst ved navnet ditt.",
-  "pl": "Nowość: Pico codziennie wita cię animacją i rusza się obok twojego imienia."
+  "ro": "Nou: Pico sare de bucurie când câștigi un concurs, termini misiunile sau iei 8 din 10!",
+  "it": "Novità: Pico salta di gioia quando vinci una gara, finisci le missioni o fai 8 su 10!",
+  "en": "New: Pico jumps for joy when you win a contest, finish your missions or score 8 out of 10!",
+  "es": "Novedad: ¡Pico salta de alegría cuando ganas un concurso, terminas las misiones o sacas 8 de 10!",
+  "fr": "Nouveau : Pico saute de joie quand tu gagnes un concours, finis tes missions ou fais 8 sur 10 !",
+  "de": "Neu: Pico springt vor Freude, wenn du einen Wettbewerb gewinnst, die Missionen schaffst oder 8 von 10 hast!",
+  "nb": "Nytt: Pico hopper av glede når du vinner en konkurranse, fullfører oppdragene eller får 8 av 10!",
+  "pl": "Nowość: Pico skacze z radości, gdy wygrasz konkurs, skończysz misje albo zdobędziesz 8 na 10!"
  }
 }
