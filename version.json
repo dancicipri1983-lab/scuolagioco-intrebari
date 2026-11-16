@@ -1,16 +1,16 @@
 {
- "vc": 45,
- "vn": "10.0",
+ "vc": 46,
+ "vn": "10.1",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-16",
  "n": {
-  "ro": "Nou: 27 de ilustrații cu Pico, care se schimbă la fiecare deschidere a jocului.",
-  "it": "Novità: 27 illustrazioni con Pico che cambiano ogni volta che apri il gioco.",
-  "en": "New: 27 Pico illustrations that change every time you open the game.",
-  "es": "Novedad: 27 ilustraciones con Pico que cambian cada vez que abres el juego.",
-  "fr": "Nouveau : 27 illustrations avec Pico qui changent à chaque ouverture du jeu.",
-  "de": "Neu: 27 Pico-Illustrationen, die sich bei jedem Öffnen des Spiels ändern.",
-  "nb": "Nytt: 27 Pico-illustrasjoner som endres hver gang du åpner spillet.",
-  "pl": "Nowość: 27 ilustracji z Pico, które zmieniają się przy każdym otwarciu gry."
+  "ro": "Nou: Pico te salută animat în fiecare zi și se mișcă sus, lângă numele tău.",
+  "it": "Novità: Pico ti saluta animato ogni giorno e si muove in alto, accanto al tuo nome.",
+  "en": "New: Pico greets you with an animation every day and moves next to your name.",
+  "es": "Novedad: Pico te saluda animado cada día y se mueve arriba, junto a tu nombre.",
+  "fr": "Nouveau : Pico te salue en animation chaque jour et bouge en haut, près de ton nom.",
+  "de": "Neu: Pico begrüßt dich jeden Tag animiert und bewegt sich oben neben deinem Namen.",
+  "nb": "Nytt: Pico hilser deg animert hver dag og beveger seg øverst ved navnet ditt.",
+  "pl": "Nowość: Pico codziennie wita cię animacją i rusza się obok twojego imienia."
  }
 }
