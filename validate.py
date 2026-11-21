@@ -52,13 +52,14 @@ for cid,c in j.get('ch',{}).items():
         if any(x not in XP for x in c.get('x',[])) or len(c.get('x',[]))>8: e2.append(f'{cid}: x invalid')
     if set(c.get('n',{}))!=set(L) or set(c.get('k',{}))!=set(L): e2.append(f'{cid}: n și k trebuie în toate cele 8 limbi')
 CH=CH+list(j.get('ch',{}).keys())
-for s in j.get('st',[])+j.get('dz',[])+j.get('bz',[])+j.get('av',[]):
+for s in j.get('st',[])+j.get('dz',[])+j.get('bz',[])+j.get('av',[])+j.get('ep',[]):
     sid=s.get('id','?')
     if not re.fullmatch(r'[a-z0-9-]{1,30}',sid) or sid in ids: e2.append(f'poveste id invalid/duplicat: {sid}')
     ids.add(sid)
     if not re.fullmatch(r'\d{4}-\d\d-\d\d',s.get('from','')): e2.append(f'{sid}: from invalid')
     if s.get('ch') not in CH: e2.append(f'{sid}: ch invalid')
     if len(s.get('acc',''))>3: e2.append(f'{sid}: acc prea lung')
+    if s in j.get('ep',[]) and (set(s.get('nx',{}))!=set(L) or any(any(ch in v for ch in '<>`') or len(v)>300 for v in s.get('nx',{}).values())): e2.append(f'{sid}: nx (teaser episod următor) trebuie în 8 limbi, max 300')
     if set(s.get('title',{}))!=set(L): e2.append(f'{sid}: title nu are toate limbile')
     if not 5<=len(s.get('sc',[]))<=30: e2.append(f'{sid}: 5-30 scene')
     if s in j.get('av',[]) and not any(x.get('end') for x in s.get('sc',[])): e2.append(f'{sid}: aventura are nevoie de cel puțin o scenă cu end:true')
@@ -81,6 +82,16 @@ for s in j.get('st',[])+j.get('dz',[])+j.get('bz',[])+j.get('av',[]):
             p=ln.split('|')
             if len(p)!=6 or not p[0].isdigit() or len(set(p[2:]))!=4 or any(c in ln for c in '<>`'): e2.append(f'{sid}: qz {l} rând invalid: {ln}')
 print('\n'.join(e2[:50]) if e2 else f"OK povești: {len(j.get('st',[]))} · povești ale zilei: {len(j.get('dz',[]))}")
+# serial: id-uri ep în ordine, câte un episod nou pe zi
+# întrebări „De ce?” pentru Întreabă-l pe Pico: wq.<limbă> = ["întrebare|răspuns", ...]
+for l,arr in (j.get('wq') or {}).items():
+    if l not in L: err.append(f'wq: limbă necunoscută {l}');continue
+    seenq=set()
+    for i,x in enumerate(arr):
+        k=x.find('|') if isinstance(x,str) else -1
+        if k<4 or k>=200 or len(x)-k<4 or len(x)>=800 or any(c in x for c in '<>`\n') or x.count('|')!=1: err.append(f'wq.{l}[{i}] invalid (întrebare|răspuns, fără < > `, max 800)')
+        elif x[:k].lower() in seenq: err.append(f'wq.{l}[{i}] întrebare duplicată')
+        else: seenq.add(x[:k].lower())
 # explicații „De ce?” (opțional): bx.<limbă>.<materie> = listă aliniată cu b.<limbă>.<materie>
 for l,subs in (j.get('bx') or {}).items():
     if l not in L: err.append(f'bx: limbă necunoscută {l}');continue
