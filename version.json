@@ -1,16 +1,16 @@
 {
- "vc": 47,
- "vn": "10.2",
+ "vc": 48,
+ "vn": "10.3",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
- "date": "2026-11-16",
+ "date": "2026-11-21",
  "n": {
-  "ro": "Nou: Pico sare de bucurie când câștigi un concurs, termini misiunile sau iei 8 din 10!",
-  "it": "Novità: Pico salta di gioia quando vinci una gara, finisci le missioni o fai 8 su 10!",
-  "en": "New: Pico jumps for joy when you win a contest, finish your missions or score 8 out of 10!",
-  "es": "Novedad: ¡Pico salta de alegría cuando ganas un concurso, terminas las misiones o sacas 8 de 10!",
-  "fr": "Nouveau : Pico saute de joie quand tu gagnes un concours, finis tes missions ou fais 8 sur 10 !",
-  "de": "Neu: Pico springt vor Freude, wenn du einen Wettbewerb gewinnst, die Missionen schaffst oder 8 von 10 hast!",
-  "nb": "Nytt: Pico hopper av glede når du vinner en konkurranse, fullfører oppdragene eller får 8 av 10!",
-  "pl": "Nowość: Pico skacze z radości, gdy wygrasz konkurs, skończysz misje albo zdobędziesz 8 na 10!"
+  "ro": "Nou: „Știai că?” după răspuns, recapitulare și pentru întrebările știute, iar copilul își alege 2 misiuni pe zi.",
+  "it": "Novità: „Lo sapevi?” dopo la risposta, ripasso anche delle domande giuste e il bambino sceglie 2 missioni al giorno.",
+  "en": "New: “Did you know?” after answers, review of known questions too, and children pick 2 missions a day.",
+  "es": "Novedad: «¿Sabías que…?» tras responder, repaso también de lo que ya sabe y el niño elige 2 misiones al día.",
+  "fr": "Nouveau : « Le savais-tu ? » après la réponse, révision aussi des questions réussies et l’enfant choisit 2 missions par jour.",
+  "de": "Neu: „Wusstest du?“ nach der Antwort, Wiederholung auch richtiger Fragen und das Kind wählt 2 Missionen pro Tag.",
+  "nb": "Nytt: «Visste du?» etter svaret, repetisjon også av spørsmål du kan, og barnet velger 2 oppdrag om dagen.",
+  "pl": "Nowość: „Czy wiesz, że…?” po odpowiedzi, powtórka także znanych pytań, a dziecko wybiera 2 misje dziennie."
  }
 }
