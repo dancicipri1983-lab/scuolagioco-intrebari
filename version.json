@@ -1,16 +1,16 @@
 {
- "vc": 50,
- "vn": "10.5",
+ "vc": 51,
+ "vn": "10.6",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-21",
  "n": {
-  "ro": "Nou: Serialul lui Pico, cartonașe de colecție, Quiz-ul meu, misiuni în lumea reală, Întreabă-l pe Pico, Seara împreună și YouTube după învățat.",
-  "it": "Novità: la serie di Pico, figurine da collezionare, Il mio quiz, missioni reali, Chiedi a Pico, Sera insieme e YouTube dopo lo studio.",
-  "en": "New: Pico’s series, collectible cards, My quiz, real-world missions, Ask Pico, Evening together and YouTube after learning.",
-  "es": "Novedades: la serie de Pico, cromos coleccionables, Mi quiz, misiones reales, Pregúntale a Pico, Tarde juntos y YouTube después de aprender.",
-  "fr": "Nouveau : la série de Pico, cartes à collectionner, Mon quiz, missions réelles, Demande à Pico, Soirée ensemble et YouTube après l’étude.",
-  "de": "Neu: Picos Serie, Sammelkarten, Mein Quiz, echte Missionen, Frag Pico, Abend zusammen und YouTube nach dem Lernen.",
-  "nb": "Nytt: Picos serie, samlekort, Min quiz, ekte oppdrag, Spør Pico, Kveld sammen og YouTube etter læring.",
-  "pl": "Nowość: serial Pico, karty do zbierania, Mój quiz, prawdziwe misje, Zapytaj Pico, Wieczór razem i YouTube po nauce."
+  "ro": "La Seara împreună alegi câte întrebări: 5, 10, 15 sau 20 pentru fiecare.",
+  "it": "In Sera insieme scegli quante domande: 5, 10, 15 o 20 a testa.",
+  "en": "In Evening together you choose how many questions: 5, 10, 15 or 20 each.",
+  "es": "En Tarde juntos eliges cuántas preguntas: 5, 10, 15 o 20 cada uno.",
+  "fr": "Dans Soirée ensemble, choisis le nombre de questions : 5, 10, 15 ou 20 chacun.",
+  "de": "Bei Abend zusammen wählst du die Anzahl der Fragen: 5, 10, 15 oder 20 pro Person.",
+  "nb": "I Kveld sammen velger du antall spørsmål: 5, 10, 15 eller 20 hver.",
+  "pl": "W Wieczór razem wybierasz liczbę pytań: 5, 10, 15 lub 20 dla każdego."
  }
 }
