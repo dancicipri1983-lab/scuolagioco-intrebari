@@ -81,6 +81,15 @@ for s in j.get('st',[])+j.get('dz',[])+j.get('bz',[])+j.get('av',[]):
             p=ln.split('|')
             if len(p)!=6 or not p[0].isdigit() or len(set(p[2:]))!=4 or any(c in ln for c in '<>`'): e2.append(f'{sid}: qz {l} rând invalid: {ln}')
 print('\n'.join(e2[:50]) if e2 else f"OK povești: {len(j.get('st',[]))} · povești ale zilei: {len(j.get('dz',[]))}")
+# explicații „De ce?” (opțional): bx.<limbă>.<materie> = listă aliniată cu b.<limbă>.<materie>
+for l,subs in (j.get('bx') or {}).items():
+    if l not in L: err.append(f'bx: limbă necunoscută {l}');continue
+    for k,arr in subs.items():
+        rows=j['b'].get(l,{}).get(k)
+        if rows is None: err.append(f'bx.{l}.{k}: materia nu există în b');continue
+        if len(arr)!=len(rows): err.append(f'bx.{l}.{k}: {len(arr)} explicații, dar {len(rows)} întrebări (trebuie același număr, "" unde lipsește)');continue
+        for i,x in enumerate(arr):
+            if not isinstance(x,str) or len(x)>300 or any(c in x for c in '<>`|\n'): err.append(f'bx.{l}.{k}[{i}] explicație invalidă (max 300 caractere, fără < > ` | și rând nou)')
 if not (err or e2):
     # fișier mic pe care telefoanele îl verifică la fiecare deschidere a jocului
     json.dump({'v':j.get('v'),'date':j.get('date','')},open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'pv.json'),'w'))
