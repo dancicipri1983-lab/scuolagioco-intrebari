@@ -30,6 +30,7 @@ for l in L:
             if any(c in ln for c in '<>`\n'): err.append(f'{l}.{k}[{i}] caractere interzise')
             if p[1].lower() in seen: err.append(f'{l}.{k}[{i}] întrebare duplicată')
             seen.add(p[1].lower())
+_n0=len(err)
 print('\n'.join(err[:50]) if err else f"OK v{j['v']} · {sum(len(x) for x in j['b']['en'].values())} întrebări/limbă")
 
 # ---- povești ----
@@ -101,6 +102,12 @@ for l,subs in (j.get('bx') or {}).items():
         if len(arr)!=len(rows): err.append(f'bx.{l}.{k}: {len(arr)} explicații, dar {len(rows)} întrebări (trebuie același număr, "" unde lipsește)');continue
         for i,x in enumerate(arr):
             if not isinstance(x,str) or len(x)>300 or any(c in x for c in '<>`|\n'): err.append(f'bx.{l}.{k}[{i}] explicație invalidă (max 300 caractere, fără < > ` | și rând nou)')
+# cuvinte obscene / jignitoare (lista în cenzura.json) — orice potrivire blochează publicarea
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+import cenzura
+for p_,l_,w_ in cenzura.scan(j): err.append(f'{p_}: cuvânt interzis pentru copii („{w_}”, {l_}) — reformulează textul')
+if len(err)>_n0: print('\n'.join(err[_n0:_n0+50]))
+else: print('OK cuvinte: niciun cuvânt obscen')
 if not (err or e2):
     # fișier mic pe care telefoanele îl verifică la fiecare deschidere a jocului
     json.dump({'v':j.get('v'),'date':j.get('date','')},open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'pv.json'),'w'))

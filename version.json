@@ -1,16 +1,16 @@
 {
- "vc": 51,
- "vn": "10.6",
+ "vc": 52,
+ "vn": "10.7",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
- "date": "2026-11-21",
+ "date": "2026-11-23",
  "n": {
-  "ro": "La Seara împreună alegi câte întrebări: 5, 10, 15 sau 20 pentru fiecare.",
-  "it": "In Sera insieme scegli quante domande: 5, 10, 15 o 20 a testa.",
-  "en": "In Evening together you choose how many questions: 5, 10, 15 or 20 each.",
-  "es": "En Tarde juntos eliges cuántas preguntas: 5, 10, 15 o 20 cada uno.",
-  "fr": "Dans Soirée ensemble, choisis le nombre de questions : 5, 10, 15 ou 20 chacun.",
-  "de": "Bei Abend zusammen wählst du die Anzahl der Fragen: 5, 10, 15 oder 20 pro Person.",
-  "nb": "I Kveld sammen velger du antall spørsmål: 5, 10, 15 eller 20 hver.",
-  "pl": "W Wieczór razem wybierasz liczbę pytań: 5, 10, 15 lub 20 dla każdego."
+  "ro": "Filtru de cuvinte urâte: întrebările, poveștile și quiz-urile de la prieteni sunt verificate automat.",
+  "it": "Filtro parolacce: domande, storie e quiz degli amici vengono controllati automaticamente.",
+  "en": "Bad-word filter: questions, stories and friends’ quizzes are checked automatically.",
+  "es": "Filtro de palabrotas: preguntas, historias y quizzes de amigos se revisan automáticamente.",
+  "fr": "Filtre de gros mots : questions, histoires et quiz des amis sont vérifiés automatiquement.",
+  "de": "Schimpfwortfilter: Fragen, Geschichten und Quiz von Freunden werden automatisch geprüft.",
+  "nb": "Banneordfilter: spørsmål, historier og quizer fra venner sjekkes automatisk.",
+  "pl": "Filtr brzydkich słów: pytania, historie i quizy od przyjaciół są sprawdzane automatycznie."
  }
 }
