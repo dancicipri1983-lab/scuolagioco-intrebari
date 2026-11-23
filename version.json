@@ -1,16 +1,16 @@
 {
- "vc": 53,
- "vn": "10.8",
+ "vc": 54,
+ "vn": "10.9",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-23",
  "n": {
-  "ro": "Nou: Învață o limbă! Cuvinte, propoziții și pronunție în 8 limbi, cu microfon și recapitulare.",
-  "it": "Novità: Impara una lingua! Parole, frasi e pronuncia in 8 lingue, con microfono e ripasso.",
-  "en": "New: Learn a language! Words, sentences and pronunciation in 8 languages, with microphone and review.",
-  "es": "Novedad: ¡Aprende un idioma! Palabras, frases y pronunciación en 8 idiomas, con micrófono y repaso.",
-  "fr": "Nouveau : Apprends une langue ! Mots, phrases et prononciation en 8 langues, avec micro et révision.",
-  "de": "Neu: Lerne eine Sprache! Wörter, Sätze und Aussprache in 8 Sprachen, mit Mikrofon und Wiederholung.",
-  "nb": "Nytt: Lær et språk! Ord, setninger og uttale på 8 språk, med mikrofon og repetisjon.",
-  "pl": "Nowość: Ucz się języka! Słowa, zdania i wymowa w 8 językach, z mikrofonem i powtórkami."
+  "ro": "Lecțiile de limbi se descarcă acum imediat după actualizare.",
+  "it": "Le lezioni di lingua ora si scaricano subito dopo l’aggiornamento.",
+  "en": "Language lessons now download right after updating.",
+  "es": "Las lecciones de idiomas ahora se descargan justo después de actualizar.",
+  "fr": "Les leçons de langue se téléchargent maintenant juste après la mise à jour.",
+  "de": "Sprachlektionen werden jetzt direkt nach dem Update geladen.",
+  "nb": "Språkleksjonene lastes nå ned rett etter oppdateringen.",
+  "pl": "Lekcje języków pobierają się teraz zaraz po aktualizacji."
  }
 }
