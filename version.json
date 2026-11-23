@@ -1,16 +1,16 @@
 {
- "vc": 52,
- "vn": "10.7",
+ "vc": 53,
+ "vn": "10.8",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-23",
  "n": {
-  "ro": "Filtru de cuvinte urâte: întrebările, poveștile și quiz-urile de la prieteni sunt verificate automat.",
-  "it": "Filtro parolacce: domande, storie e quiz degli amici vengono controllati automaticamente.",
-  "en": "Bad-word filter: questions, stories and friends’ quizzes are checked automatically.",
-  "es": "Filtro de palabrotas: preguntas, historias y quizzes de amigos se revisan automáticamente.",
-  "fr": "Filtre de gros mots : questions, histoires et quiz des amis sont vérifiés automatiquement.",
-  "de": "Schimpfwortfilter: Fragen, Geschichten und Quiz von Freunden werden automatisch geprüft.",
-  "nb": "Banneordfilter: spørsmål, historier og quizer fra venner sjekkes automatisk.",
-  "pl": "Filtr brzydkich słów: pytania, historie i quizy od przyjaciół są sprawdzane automatycznie."
+  "ro": "Nou: Învață o limbă! Cuvinte, propoziții și pronunție în 8 limbi, cu microfon și recapitulare.",
+  "it": "Novità: Impara una lingua! Parole, frasi e pronuncia in 8 lingue, con microfono e ripasso.",
+  "en": "New: Learn a language! Words, sentences and pronunciation in 8 languages, with microphone and review.",
+  "es": "Novedad: ¡Aprende un idioma! Palabras, frases y pronunciación en 8 idiomas, con micrófono y repaso.",
+  "fr": "Nouveau : Apprends une langue ! Mots, phrases et prononciation en 8 langues, avec micro et révision.",
+  "de": "Neu: Lerne eine Sprache! Wörter, Sätze und Aussprache in 8 Sprachen, mit Mikrofon und Wiederholung.",
+  "nb": "Nytt: Lær et språk! Ord, setninger og uttale på 8 språk, med mikrofon og repetisjon.",
+  "pl": "Nowość: Ucz się języka! Słowa, zdania i wymowa w 8 językach, z mikrofonem i powtórkami."
  }
 }

@@ -102,6 +102,28 @@ for l,subs in (j.get('bx') or {}).items():
         if len(arr)!=len(rows): err.append(f'bx.{l}.{k}: {len(arr)} explicații, dar {len(rows)} întrebări (trebuie același număr, "" unde lipsește)');continue
         for i,x in enumerate(arr):
             if not isinstance(x,str) or len(x)>300 or any(c in x for c in '<>`|\n'): err.append(f'bx.{l}.{k}[{i}] explicație invalidă (max 300 caractere, fără < > ` | și rând nou)')
+# Învață o limbă: lx.u = [{id, ic, t:{8 limbi}, w:[{e, ro, it, en, es, fr, de, nb, pl}], s:[{8 limbi}]}]
+_lxids=set()
+for ui,u in enumerate((j.get('lx') or {}).get('u',[])):
+    uid=u.get('id','')
+    if not re.match(r'^u[0-9]{2,3}$',uid) or uid in _lxids: err.append(f'lx.u[{ui}]: id invalid sau duplicat (u01, u02…)')
+    _lxids.add(uid)
+    if set(u.get('t',{}))!=set(L): err.append(f'lx.{uid}: titlul t trebuie în cele 8 limbi')
+    ws=u.get('w',[]); ss=u.get('s',[])
+    if len(ws)<8 or len(ws)>30: err.append(f'lx.{uid}: între 8 și 30 de cuvinte (are {len(ws)})')
+    if len(ss)<3 or len(ss)>20: err.append(f'lx.{uid}: între 3 și 20 de propoziții (are {len(ss)})')
+    emo=set()
+    for wi,w in enumerate(ws):
+        if not w.get('e') or any(c in w.get('e','') for c in '<>`"\''): err.append(f'lx.{uid}.w[{wi}]: lipsește emoji-ul e')
+        if w.get('e') in emo: err.append(f'lx.{uid}.w[{wi}]: emoji repetat în unitate ({w.get("e")})')
+        emo.add(w.get('e'))
+        for l in L:
+            v=w.get(l)
+            if not isinstance(v,str) or not v.strip() or len(v)>60 or any(c in v for c in '<>`|\n'): err.append(f'lx.{uid}.w[{wi}].{l} invalid (max 60, fără < > ` |)')
+    for si,x in enumerate(ss):
+        for l in L:
+            v=x.get(l)
+            if not isinstance(v,str) or not v.strip() or len(v)>160 or any(c in v for c in '<>`|\n'): err.append(f'lx.{uid}.s[{si}].{l} invalid (max 160, fără < > ` |)')
 # cuvinte obscene / jignitoare (lista în cenzura.json) — orice potrivire blochează publicarea
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import cenzura
