@@ -1,16 +1,16 @@
 {
- "vc": 54,
- "vn": "10.9",
+ "vc": 55,
+ "vn": "11.0",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-23",
  "n": {
-  "ro": "Lecțiile de limbi se descarcă acum imediat după actualizare.",
-  "it": "Le lezioni di lingua ora si scaricano subito dopo l’aggiornamento.",
-  "en": "Language lessons now download right after updating.",
-  "es": "Las lecciones de idiomas ahora se descargan justo después de actualizar.",
-  "fr": "Les leçons de langue se téléchargent maintenant juste après la mise à jour.",
-  "de": "Sprachlektionen werden jetzt direkt nach dem Update geladen.",
-  "nb": "Språkleksjonene lastes nå ned rett etter oppdateringen.",
-  "pl": "Lekcje języków pobierają się teraz zaraz po aktualizacji."
+  "ro": "Învață o limbă are acum pronunție înregistrată, clară, în toate cele 8 limbi. Merge și fără internet după prima lecție.",
+  "it": "Impara una lingua ora ha la pronuncia registrata, chiara, in tutte le 8 lingue. Funziona anche senza internet dopo la prima lezione.",
+  "en": "Learn a language now has clear recorded pronunciation in all 8 languages. Works offline after the first lesson.",
+  "es": "Aprende un idioma ahora tiene pronunciación grabada y clara en los 8 idiomas. Funciona sin internet tras la primera lección.",
+  "fr": "Apprends une langue a maintenant une prononciation enregistrée et claire dans les 8 langues. Fonctionne hors ligne après la première leçon.",
+  "de": "Lerne eine Sprache hat jetzt klare aufgenommene Aussprache in allen 8 Sprachen. Funktioniert nach der ersten Lektion auch offline.",
+  "nb": "Lær et språk har nå tydelig innspilt uttale på alle 8 språk. Fungerer uten internett etter første leksjon.",
+  "pl": "Ucz się języka ma teraz wyraźną nagraną wymowę we wszystkich 8 językach. Działa offline po pierwszej lekcji."
  }
 }
