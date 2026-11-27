@@ -1,16 +1,16 @@
 {
- "vc": 55,
- "vn": "11.0",
+ "vc": 56,
+ "vn": "11.1",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
- "date": "2026-11-23",
+ "date": "2026-11-27",
  "n": {
-  "ro": "Învață o limbă are acum pronunție înregistrată, clară, în toate cele 8 limbi. Merge și fără internet după prima lecție.",
-  "it": "Impara una lingua ora ha la pronuncia registrata, chiara, in tutte le 8 lingue. Funziona anche senza internet dopo la prima lezione.",
-  "en": "Learn a language now has clear recorded pronunciation in all 8 languages. Works offline after the first lesson.",
-  "es": "Aprende un idioma ahora tiene pronunciación grabada y clara en los 8 idiomas. Funciona sin internet tras la primera lección.",
-  "fr": "Apprends une langue a maintenant une prononciation enregistrée et claire dans les 8 langues. Fonctionne hors ligne après la première leçon.",
-  "de": "Lerne eine Sprache hat jetzt klare aufgenommene Aussprache in allen 8 Sprachen. Funktioniert nach der ersten Lektion auch offline.",
-  "nb": "Lær et språk har nå tydelig innspilt uttale på alle 8 språk. Fungerer uten internett etter første leksjon.",
-  "pl": "Ucz się języka ma teraz wyraźną nagraną wymowę we wszystkich 8 językach. Działa offline po pierwszej lekcji."
+  "ro": "Pico are un look nou! 9 ipostaze noi: salută, se bucură, sare, se gândește, aleargă și mai multe.",
+  "it": "Pico ha un nuovo look! 9 nuove pose: saluta, festeggia, salta, pensa, corre e altro.",
+  "en": "Pico has a new look! 9 new poses: waving, cheering, jumping, thinking, walking and more.",
+  "es": "¡Pico tiene un nuevo look! 9 poses nuevas: saluda, celebra, salta, piensa, camina y más.",
+  "fr": "Pico a un nouveau look ! 9 nouvelles poses : il salue, fait la fête, saute, réfléchit, marche et plus.",
+  "de": "Pico hat einen neuen Look! 9 neue Posen: winken, jubeln, springen, nachdenken, laufen und mehr.",
+  "nb": "Pico har fått nytt utseende! 9 nye positurer: vinker, jubler, hopper, tenker, går og mer.",
+  "pl": "Pico ma nowy wygląd! 9 nowych póz: macha, cieszy się, skacze, myśli, chodzi i więcej."
  }
 }
