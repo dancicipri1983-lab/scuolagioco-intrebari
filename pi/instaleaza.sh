@@ -40,6 +40,8 @@ pas "5/6  Pornesc Tailscale"
 atentie "Va apărea un link (https://login.tailscale.com/...). Deschide-l pe telefon și conectează-te cu contul tău Google."
 $SUDO tailscale up --advertise-exit-node --accept-dns=false --hostname=scutul
 
+curl -fsSL https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/pi/configureaza.py -o ~/configureaza.py || true
+curl -fsSL https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/pi/scutul_deblocare.py -o ~/scutul_deblocare.py || true
 pas "6/6  Gata!"
 IP_LOCAL=$(hostname -I | awk '{print $1}')
 IP_TS=$(tailscale ip -4 2>/dev/null | head -1)
@@ -48,8 +50,8 @@ echo "------------------------------------------------------------"
 echo -e " Adresa Raspberry acasă:        ${VERDE}${IP_LOCAL}${NORMAL}"
 echo -e " Adresa Raspberry prin Tailscale: ${VERDE}${IP_TS}${NORMAL}"
 echo
-echo -e " Deschide acum pe telefon:  ${VERDE}http://${IP_LOCAL}:3000${NORMAL}"
-echo " și fă configurarea AdGuard Home (vezi ghidul, Pasul 4)."
+echo " Urmează: pune Tailscale pe tableta copilului (ghidul, Pasul 4),"
+echo " apoi rulează configurarea automată (ghidul, Pasul 5)."
 echo "------------------------------------------------------------"
 echo
 atentie "Notează cele două adrese de mai sus — îți trebuie în pașii următori."
