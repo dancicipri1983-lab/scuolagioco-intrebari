@@ -1,16 +1,16 @@
 {
- "vc": 57,
- "vn": "11.2",
+ "vc": 58,
+ "vn": "11.3",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-27",
  "n": {
-  "ro": "Explicații la fiecare întrebare, chiar și când răspunsul e corect. La matematică Pico arată pas cu pas cum se ajunge la rezultat. Avatar nou, mai frumos.",
-  "it": "Spiegazioni per ogni domanda, anche quando la risposta è giusta. In matematica Pico mostra passo passo come arrivare al risultato. Nuovo avatar, più bello.",
-  "en": "Explanations for every question, even when the answer is right. In maths Pico shows step by step how to get the result. New, nicer avatar.",
-  "es": "Explicaciones en cada pregunta, incluso cuando la respuesta es correcta. En matemáticas Pico muestra paso a paso cómo llegar al resultado. Avatar nuevo y más bonito.",
-  "fr": "Des explications pour chaque question, même quand la réponse est juste. En maths, Pico montre pas à pas comment trouver le résultat. Nouvel avatar, plus joli.",
-  "de": "Erklärungen zu jeder Frage, auch bei richtiger Antwort. In Mathe zeigt Pico Schritt für Schritt den Rechenweg. Neuer, schönerer Avatar.",
-  "nb": "Forklaringer til hvert spørsmål, også når svaret er riktig. I matte viser Pico steg for steg hvordan man kommer fram til svaret. Ny og finere avatar.",
-  "pl": "Wyjaśnienia do każdego pytania, nawet przy dobrej odpowiedzi. W matematyce Pico pokazuje krok po kroku, jak dojść do wyniku. Nowy, ładniejszy awatar."
+  "ro": "Avatare noi: 33 de imagini premium (copii 3D, animale, fantastic, profesioniști, realiste).",
+  "it": "Nuovi avatar: 33 immagini premium (bambini 3D, animali, fantasy, professionisti, realistici).",
+  "en": "New avatars: 33 premium pictures (3D kids, animals, fantasy, professionals, realistic).",
+  "es": "Avatares nuevos: 33 imágenes premium (niños 3D, animales, fantasía, profesionales, realistas).",
+  "fr": "Nouveaux avatars : 33 images premium (enfants 3D, animaux, fantastique, professionnels, réalistes).",
+  "de": "Neue Avatare: 33 Premium-Bilder (3D-Kinder, Tiere, Fantasy, Profis, realistisch).",
+  "nb": "Nye avatarer: 33 premiumbilder (3D-barn, dyr, fantasy, profesjonelle, realistiske).",
+  "pl": "Nowe awatary: 33 obrazki premium (dzieci 3D, zwierzęta, fantasy, profesjonaliści, realistyczne)."
  }
 }
