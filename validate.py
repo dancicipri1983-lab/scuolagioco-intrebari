@@ -124,6 +124,11 @@ for ui,u in enumerate((j.get('lx') or {}).get('u',[])):
         for l in L:
             v=x.get(l)
             if not isinstance(v,str) or not v.strip() or len(v)>160 or any(c in v for c in '<>`|\n'): err.append(f'lx.{uid}.s[{si}].{l} invalid (max 160, fără < > ` |)')
+# explicații pentru întrebările din aplicație: xq.<limbă> = {"<cheie din tools/explicatii_lipsa.json>": "explicație"}
+for l,m in (j.get('xq') or {}).items():
+    if l not in L or not isinstance(m,dict): err.append(f'xq: limbă necunoscută sau format greșit ({l})');continue
+    for k,v in m.items():
+        if not isinstance(v,str) or not v.strip() or len(v)>600 or any(c in v for c in '<>`'): err.append(f'xq.{l}[{k[:40]}]: explicație invalidă (text, max 600, fără < > `)')
 # cuvinte obscene / jignitoare (lista în cenzura.json) — orice potrivire blochează publicarea
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import cenzura
