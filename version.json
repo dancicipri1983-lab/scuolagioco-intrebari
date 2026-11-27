@@ -1,16 +1,16 @@
 {
- "vc": 56,
- "vn": "11.1",
+ "vc": 57,
+ "vn": "11.2",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-27",
  "n": {
-  "ro": "Pico are un look nou! 9 ipostaze noi: salută, se bucură, sare, se gândește, aleargă și mai multe.",
-  "it": "Pico ha un nuovo look! 9 nuove pose: saluta, festeggia, salta, pensa, corre e altro.",
-  "en": "Pico has a new look! 9 new poses: waving, cheering, jumping, thinking, walking and more.",
-  "es": "¡Pico tiene un nuevo look! 9 poses nuevas: saluda, celebra, salta, piensa, camina y más.",
-  "fr": "Pico a un nouveau look ! 9 nouvelles poses : il salue, fait la fête, saute, réfléchit, marche et plus.",
-  "de": "Pico hat einen neuen Look! 9 neue Posen: winken, jubeln, springen, nachdenken, laufen und mehr.",
-  "nb": "Pico har fått nytt utseende! 9 nye positurer: vinker, jubler, hopper, tenker, går og mer.",
-  "pl": "Pico ma nowy wygląd! 9 nowych póz: macha, cieszy się, skacze, myśli, chodzi i więcej."
+  "ro": "Explicații la fiecare întrebare, chiar și când răspunsul e corect. La matematică Pico arată pas cu pas cum se ajunge la rezultat. Avatar nou, mai frumos.",
+  "it": "Spiegazioni per ogni domanda, anche quando la risposta è giusta. In matematica Pico mostra passo passo come arrivare al risultato. Nuovo avatar, più bello.",
+  "en": "Explanations for every question, even when the answer is right. In maths Pico shows step by step how to get the result. New, nicer avatar.",
+  "es": "Explicaciones en cada pregunta, incluso cuando la respuesta es correcta. En matemáticas Pico muestra paso a paso cómo llegar al resultado. Avatar nuevo y más bonito.",
+  "fr": "Des explications pour chaque question, même quand la réponse est juste. En maths, Pico montre pas à pas comment trouver le résultat. Nouvel avatar, plus joli.",
+  "de": "Erklärungen zu jeder Frage, auch bei richtiger Antwort. In Mathe zeigt Pico Schritt für Schritt den Rechenweg. Neuer, schönerer Avatar.",
+  "nb": "Forklaringer til hvert spørsmål, også når svaret er riktig. I matte viser Pico steg for steg hvordan man kommer fram til svaret. Ny og finere avatar.",
+  "pl": "Wyjaśnienia do każdego pytania, nawet przy dobrej odpowiedzi. W matematyce Pico pokazuje krok po kroku, jak dojść do wyniku. Nowy, ładniejszy awatar."
  }
 }
