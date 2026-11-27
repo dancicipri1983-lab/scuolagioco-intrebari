@@ -73,8 +73,8 @@ def noapte():
     return (a <= t < b) if a < b else (t >= a or t < b)
 
 
-def salveaza(pana):
-    try: json.dump({"pana": pana}, open(STARE, "w"))
+def salveaza(pana, parinte=False):
+    try: json.dump({"pana": pana, "parinte": parinte}, open(STARE, "w"))
     except Exception: pass
 
 
@@ -84,12 +84,12 @@ def programeaza(sec):
     _timer = threading.Timer(max(1, sec), lambda: blocheaza()); _timer.daemon = True; _timer.start()
 
 
-def deblocheaza(minute):
+def deblocheaza(minute, parinte=False):
     with _lock:
-        if noapte(): log("cerere de deblocare ignorată: e noapte"); return
+        if noapte() and not parinte: log("cerere de deblocare ignorată: e noapte"); return
         minute = max(1, min(minute, MAXM))
-        deblocheaza_acum(); pana = time.time() + minute * 60; salveaza(pana); programeaza(minute * 60)
-        log(f"DEBLOCAT {minute} minute (mod {MOD})")
+        deblocheaza_acum(); pana = time.time() + minute * 60; salveaza(pana, parinte); programeaza(minute * 60)
+        log(f"DEBLOCAT {minute} minute (mod {MOD}){' de părinte' if parinte else ''}")
 
 
 def asculta():
@@ -102,7 +102,13 @@ def asculta():
                     if m.get("event") != "message": continue
                     txt = m.get("message", "")
                     g = re.match(r"^SGYT (\d{1,3})\b", txt)
+                    p = re.match(r"^SGPARENT (\d{1,3})\b", txt)
                     if g: deblocheaza(int(g.group(1)))
+                    elif p: deblocheaza(int(p.group(1)), parinte=True)
+                    elif txt.startswith("SGLOCK"):
+                        with _lock:
+                            if _timer: _timer.cancel()
+                            blocheaza(); log("blocat de părinte")
                     elif txt.startswith("SGTEST"): log("Mesaj de test primit — legătura cu ScuolaGioco funcționează.")
         except Exception as e:
             log("reconectare…", e); time.sleep(10)
@@ -113,7 +119,7 @@ def paznic_noapte():
         time.sleep(60)
         try:
             st = json.load(open(STARE))
-            if st.get("pana", 0) > time.time() and noapte():
+            if st.get("pana", 0) > time.time() and noapte() and not st.get("parinte"):
                 log("a început noaptea — blochez"); blocheaza()
         except Exception: pass
 
