@@ -1,16 +1,16 @@
 {
- "vc": 60,
- "vn": "11.5",
+ "vc": 61,
+ "vn": "11.6",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-28",
  "n": {
-  "ro": "Întrebările nu se mai repetă de la o zi la alta: jocul ține minte ce a văzut copilul.",
-  "it": "Le domande non si ripetono più da un giorno all'altro: il gioco ricorda cosa ha già visto il bambino.",
-  "en": "Questions no longer repeat from day to day: the game remembers what the child has already seen.",
-  "es": "Las preguntas ya no se repiten de un día a otro: el juego recuerda lo que el niño ya vio.",
-  "fr": "Les questions ne se répètent plus d'un jour à l'autre : le jeu se souvient de ce que l'enfant a déjà vu.",
-  "de": "Fragen wiederholen sich nicht mehr von Tag zu Tag: Das Spiel merkt sich, was das Kind schon gesehen hat.",
-  "nb": "Spørsmålene gjentas ikke lenger fra dag til dag: spillet husker hva barnet allerede har sett.",
-  "pl": "Pytania nie powtarzają się już z dnia na dzień: gra pamięta, co dziecko już widziało."
+  "ro": "Italiană, clasele 1–3: exerciții noi de gramatică (CHI/CHE, GN, GLI, SC, QU/CU/CQU, doppie, accent, è/e, ha/a, ho/o, nume, articole, verbe, punctuație, ordine alfabetică, contrarii), cu explicația regulii.",
+  "it": "Italiano, classi 1–3: nuovi esercizi di grammatica (CHI/CHE, GN, GLI, SC, QU/CU/CQU, doppie, accento, è/e, ha/a, ho/o, nomi, articoli, verbi, punteggiatura, ordine alfabetico, contrari), con la spiegazione della regola.",
+  "en": "Italian, grades 1–3: new grammar exercises (digraphs, double letters, accents, è/e, ha/a, nouns, articles, verbs, punctuation, alphabetical order, opposites) with the rule explained.",
+  "es": "Italiano, cursos 1–3: nuevos ejercicios de gramática (dígrafos, dobles, acento, è/e, ha/a, nombres, artículos, verbos, puntuación, orden alfabético, contrarios) con la regla explicada.",
+  "fr": "Italien, classes 1–3 : nouveaux exercices de grammaire (digrammes, doubles, accents, è/e, ha/a, noms, articles, verbes, ponctuation, ordre alphabétique, contraires) avec la règle expliquée.",
+  "de": "Italienisch, Klassen 1–3: neue Grammatikübungen (Digraphe, Doppelkonsonanten, Akzente, è/e, ha/a, Nomen, Artikel, Verben, Satzzeichen, Alphabet, Gegenteile) mit erklärter Regel.",
+  "nb": "Italiensk, klasse 1–3: nye grammatikkoppgaver (digrafer, dobbeltkonsonanter, aksenter, è/e, ha/a, substantiv, artikler, verb, tegnsetting, alfabetisk rekkefølge, motsetninger) med forklart regel.",
+  "pl": "Włoski, klasy 1–3: nowe ćwiczenia z gramatyki (dwuznaki, podwójne spółgłoski, akcenty, è/e, ha/a, rzeczowniki, rodzajniki, czasowniki, interpunkcja, kolejność alfabetyczna, przeciwieństwa) z wyjaśnioną zasadą."
  }
 }
