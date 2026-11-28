@@ -1,16 +1,16 @@
 {
- "vc": 59,
- "vn": "11.4",
+ "vc": 60,
+ "vn": "11.5",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "n": {
-  "ro": "Avatare noi: 40 de animale (câini, pisici, animale sălbatice, păsări și altele) și copii 3D.",
-  "it": "Nuovi avatar: 40 animali (cani, gatti, animali selvatici, uccelli e altri) e bambini 3D.",
-  "en": "New avatars: 40 animals (dogs, cats, wild animals, birds and more) and 3D kids.",
-  "es": "Avatares nuevos: 40 animales (perros, gatos, animales salvajes, pájaros y más) y niños 3D.",
-  "fr": "Nouveaux avatars : 40 animaux (chiens, chats, animaux sauvages, oiseaux et plus) et enfants 3D.",
-  "de": "Neue Avatare: 40 Tiere (Hunde, Katzen, Wildtiere, Vögel und mehr) und 3D-Kinder.",
-  "nb": "Nye avatarer: 40 dyr (hunder, katter, ville dyr, fugler og mer) og 3D-barn.",
-  "pl": "Nowe awatary: 40 zwierząt (psy, koty, dzikie zwierzęta, ptaki i inne) oraz dzieci 3D."
+  "ro": "Întrebările nu se mai repetă de la o zi la alta: jocul ține minte ce a văzut copilul.",
+  "it": "Le domande non si ripetono più da un giorno all'altro: il gioco ricorda cosa ha già visto il bambino.",
+  "en": "Questions no longer repeat from day to day: the game remembers what the child has already seen.",
+  "es": "Las preguntas ya no se repiten de un día a otro: el juego recuerda lo que el niño ya vio.",
+  "fr": "Les questions ne se répètent plus d'un jour à l'autre : le jeu se souvient de ce que l'enfant a déjà vu.",
+  "de": "Fragen wiederholen sich nicht mehr von Tag zu Tag: Das Spiel merkt sich, was das Kind schon gesehen hat.",
+  "nb": "Spørsmålene gjentas ikke lenger fra dag til dag: spillet husker hva barnet allerede har sett.",
+  "pl": "Pytania nie powtarzają się już z dnia na dzień: gra pamięta, co dziecko już widziało."
  }
 }
