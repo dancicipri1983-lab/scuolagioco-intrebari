@@ -1,16 +1,16 @@
 {
- "vc": 66,
- "vn": "12.1",
+ "vc": 67,
+ "vn": "12.2",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-28",
  "n": {
-  "ro": "Matematică clasa a 2-a: „Povestea împărțirilor” – probleme cu imagini în care se împart lucruri în mod egal (ca în manual), citite de Pico, cu explicația „câte unul pe rând” și verificarea cu înmulțirea.",
-  "it": "Matematica classe 2: «La storia delle divisioni» – problemi illustrati in cui si distribuisce in parti uguali (come nel libro), letti da Pico, con la spiegazione «uno a te, uno a te» e la prova con la moltiplicazione.",
-  "en": "Maths grade 2: picture stories about sharing equally, read aloud by Pico, with step-by-step explanations.",
-  "es": "Matemáticas 2.º: historias ilustradas de repartir en partes iguales.",
-  "fr": "Maths CE1 : histoires illustrées de partage en parts égales.",
-  "de": "Mathe Klasse 2: Bildgeschichten zum gerechten Verteilen.",
-  "nb": "Matte 2. klasse: bildehistorier om å dele likt.",
-  "pl": "Matematyka klasa 2: obrazkowe historie o dzieleniu po równo."
+  "ro": "Actualizări directe: de acum aplicația descarcă versiunea nouă direct în instalatorul Android, fără să salveze fișiere .apk pe telefon. Apeși „Descarcă și instalează”, apoi „Actualizează”.",
+  "it": "Aggiornamenti diretti: da ora l'app scarica la nuova versione direttamente nell'installatore di Android, senza salvare file .apk sul telefono. Premi «Scarica e installa», poi «Aggiorna».",
+  "en": "Direct updates: the app now downloads new versions straight into the Android installer, without saving .apk files on the phone.",
+  "es": "Actualizaciones directas, sin guardar archivos .apk en el teléfono.",
+  "fr": "Mises à jour directes, sans fichiers .apk enregistrés sur le téléphone.",
+  "de": "Direkte Updates, ohne .apk-Dateien auf dem Handy zu speichern.",
+  "nb": "Direkte oppdateringer uten å lagre .apk-filer på telefonen.",
+  "pl": "Bezpośrednie aktualizacje, bez zapisywania plików .apk w telefonie."
  }
 }
