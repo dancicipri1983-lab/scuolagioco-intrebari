@@ -1,16 +1,16 @@
 {
- "vc": 62,
- "vn": "11.7",
+ "vc": 63,
+ "vn": "11.8",
  "url": "https://raw.githubusercontent.com/dancicipri1983-lab/scuolagioco-intrebari/main/apk/ScuolaGioco.apk",
  "date": "2026-11-28",
  "n": {
-  "ro": "Italiană, clasele 1–3: exerciții noi de gramatică (MB/MP, CHI/CHE, GN, GLI, SC, QU/CU/CQU, doppie, accent, è/e, ha/a, ho/o, nume, articole, verbe, punctuație, ordine alfabetică, contrarii), cu explicația regulii.",
-  "it": "Italiano, classi 1–3: nuovi esercizi di grammatica (MB/MP, CHI/CHE, GN, GLI, SC, QU/CU/CQU, doppie, accento, è/e, ha/a, ho/o, nomi, articoli, verbi, punteggiatura, ordine alfabetico, contrari), con la spiegazione della regola.",
-  "en": "Italian, grades 1–3: new grammar exercises (MB/MP, digraphs, double letters, accents, è/e, ha/a, nouns, articles, verbs, punctuation, alphabetical order, opposites) with the rule explained.",
-  "es": "Italiano, cursos 1–3: nuevos ejercicios de gramática (MB/MP, dígrafos, dobles, acento, è/e, ha/a, nombres, artículos, verbos, puntuación, orden alfabético, contrarios) con la regla explicada.",
-  "fr": "Italien, classes 1–3 : nouveaux exercices de grammaire (MB/MP, digrammes, doubles, accents, è/e, ha/a, noms, articles, verbes, ponctuation, ordre alphabétique, contraires) avec la règle expliquée.",
-  "de": "Italienisch, Klassen 1–3: neue Grammatikübungen (MB/MP, Digraphe, Doppelkonsonanten, Akzente, è/e, ha/a, Nomen, Artikel, Verben, Satzzeichen, Alphabet, Gegenteile) mit erklärter Regel.",
-  "nb": "Italiensk, klasse 1–3: nye grammatikkoppgaver (MB/MP, digrafer, dobbeltkonsonanter, aksenter, è/e, ha/a, substantiv, artikler, verb, tegnsetting, alfabetisk rekkefølge, motsetninger) med forklart regel.",
-  "pl": "Włoski, klasy 1–3: nowe ćwiczenia z gramatyki (MB/MP, dwuznaki, podwójne spółgłoski, akcenty, è/e, ha/a, rzeczowniki, rodzajniki, czasowniki, interpunkcja, kolejność alfabetyczna, przeciwieństwa) z wyjaśnioną zasadą."
+  "ro": "Italiană clasa a 2-a, după manualul „Mi alleno in grammatica 2”: toate lecțiile de ortografie (B/P/D/T, S/Z/F/V, CA/CIA, GA/GIA, SC, GN/NI, GLI/LI, QU/CU/CQU, MB/MP, doppie, accent, è/e, apostrof, c’è/ci sono, c’era/c’erano, ho/hai/ha/hanno, punctuație) și morfologie (verbe, timpuri, nume, articole, adjective), fiecare cu regula explicată și exemple.",
+  "it": "Italiano classe 2, come in «Mi alleno in grammatica 2»: tutta l’ortografia (B/P/D/T, S/Z/F/V, CA/CIA, GA/GIA, SC, GN/NI, GLI/LI, QU/CU/CQU, MB/MP, doppie, accento, è/e, apostrofo, c’è/ci sono, c’era/c’erano, ho/hai/ha/hanno, punteggiatura) e la morfologia (verbi, tempi, nomi, articoli, aggettivi), con la regola spiegata ed esempi.",
+  "en": "Italian grade 2: all spelling and grammar lessons of the school programme, each with the rule explained and examples.",
+  "es": "Italiano 2.º curso: todas las lecciones de ortografía y gramática del programa escolar, con la regla explicada y ejemplos.",
+  "fr": "Italien CE1 : toutes les leçons d’orthographe et de grammaire du programme, avec la règle expliquée et des exemples.",
+  "de": "Italienisch Klasse 2: alle Rechtschreib- und Grammatiklektionen des Lehrplans, mit erklärter Regel und Beispielen.",
+  "nb": "Italiensk 2. klasse: alle rettskrivings- og grammatikktimer i læreplanen, med forklart regel og eksempler.",
+  "pl": "Włoski klasa 2: wszystkie lekcje ortografii i gramatyki z programu, z wyjaśnioną zasadą i przykładami."
  }
 }
